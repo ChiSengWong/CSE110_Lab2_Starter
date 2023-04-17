@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="My Meeting Minutes website">
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body>
+    <header>
+      <h1>Meeting Minutes</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Assignment</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Meeting</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div>
+            <h2>Pomodoro Timer First Brainstorm</h2>
+            <h3>Brainstorming</h3>
+            <h4>April 15th, 2023</h4>
+        </div>
+ 
+        <ul>
+          <li>Attendance:
+            <ul>
+              <li><b>Chi</b></li>
+            </ul>
+          </li>
+          <li>Agenda:
+            <ol>
+              <li>Review of the progress of the project</li>
+              <li>Unfinished topics from last meeting</li>
+              <li>New idea that needs to be talked about</li>
+              <li>Any miscellaneous comments/questions/concerns that anyone would like to bring up</li>
+              <li>Diagramming of the project progress on the whiteboard</li>
+              <li>Audio recording of the meeting</li>
+              <li>Video recording of the meeting</li>
+            </ol>
+          </li>
+          <li>Unfinished topics from Last Meeting:
+            <ul>
+              <li>Discuss the <em>User Interface</em> design</li>
+              <li>Finalize the project schedule</li>
+            </ul>
+          </li>
+          <li>New topics:
+            <ul>
+              <li><strong>The team will focus on completing phase 1 of the project by the end of next week.</strong></li>
+            </ul>
+          </li>
+          <li>Comments/Questions/Concerns:
+            <ul>
+              <li><i>None</i></li>
+            </ul>
+          </li>
+          <li>Pictures:
+            <ul>
+              <li><img src="diagram1.jpg" alt="Diagram 1"></li>
+              <li><img src="diagram2.jpg" alt="Diagram 2"></li>
+            </ul>
+          </li>
+          <span>
+            <li>Audio Recording:
+                <audio controls>
+                  <source src="audio.mp3" type="audio/mpeg">
+                </audio>
+              </li>
+              <li>Video Recording:
+                <video controls>
+                  <source src="video.mp4" type="video/mp4">
+                </video>
+              </li>
+          </span>
+        </ul>
+        <details>
+            <summary>Click to show more</summary>
+            <p>Here is some additional information.</p>
+        </details>
+      </section>
+    </main>
+    <form>
+        <fieldset>
+            <legend>Contact Us</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+            <label for="birthdate">Birthdate:</label>
+            <input type="date" id="birthdate" name="birthdate"><br>
+            <label for="color">Favorite Color:</label>
+            <input list="colors" name="color">
+            <datalist id="colors">
+                <option value="Red">
+                <option value="Green">
+                <option value="Blue">
+            </datalist><br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+
+    <footer>
+      <p>&copy; 2023 My Meeting Minutes</p>
+    </footer>
+  </body>
+</html>
